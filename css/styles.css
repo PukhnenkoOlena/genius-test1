@@ -33,6 +33,7 @@
 :root {
   --color-primary-dark: #31261a;
   --color-primary-light: #faf4ea;
+  --color-secondary-dark: #a18268;
   --color-brand-dark: #465929;
   --color-brend-normal: #819b57;
   --color-brend-light: #cfcfbc;
@@ -46,6 +47,7 @@
 
 body {
   color: var(--color-primary-dark);
+  background-color: var(--color-primary-light);
   font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -136,7 +138,7 @@ ul {
 /*Hero section*/
 .hero-section {
   padding: 272px 0;
-  background-image: url("../imeges/hero-section-background.jpg");
+  background-image: url("../images/hero-section-background.jpg");
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -215,6 +217,11 @@ ul {
   content: "";
 }
 
+.chef-photo {
+  box-shadow: -16px 16px 0 0 var(--color-primary-light),
+    -16px 16px 0 2px var(--color-secondary-dark);
+  border-radius: 4px 4px 4px 200px;
+}
 .chef-title {
   margin-bottom: 16px;
   font-size: 40px;
@@ -273,7 +280,7 @@ ul {
 }
 
 .footer {
-  background-image: url(../imeges/footer-background.png);
+  background-image: url(../images/footer-background.png);
   background-color: var(--color-primary-dark);
   background-repeat: no-repeat;
   background-size: cover;
