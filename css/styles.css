@@ -131,6 +131,7 @@ ul {
 }
 
 /*Header*/
+
 .header {
   position: absolute;
   top: 0;
@@ -138,6 +139,7 @@ ul {
   width: 100%;
   padding-top: 32px;
 }
+
 .header-container {
   display: flex;
   align-items: center;
